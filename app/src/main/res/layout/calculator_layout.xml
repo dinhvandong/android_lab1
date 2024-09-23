@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:gravity="bottom"
+    android:background="@color/pink"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+
+        android:layout_marginBottom="50dp"
+        android:background="@color/pink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:backgroundTint="@color/black"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:textSize="50dp"
+            android:hint="Enter a number"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="@android:color/holo_orange_light"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_weight="1"
+            android:text="@string/label_add"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            />
+        <Button
+            android:layout_weight="1"
+            android:text="@string/label_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+             />
+        <Button
+            android:layout_weight="1"
+            android:text="@string/label_mul"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+             />
+        <Button
+            android:layout_weight="1"
+            android:text="@string/label_div"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+             />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="@android:color/holo_blue_bright"
+
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_weight="1"
+            android:text="7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+        <Button
+            android:layout_weight="1"
+            android:text="8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+        <Button
+            android:layout_weight="1"
+            android:text="9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+        <Button
+            android:layout_weight="1"
+            android:text="C"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:background="@android:color/holo_green_light"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_weight="1"
+            android:text="7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+        <Button
+            android:layout_weight="1"
+            android:text="8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+        <Button
+            android:layout_weight="1"
+            android:text="9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+        <Button
+            android:layout_weight="1"
+            android:text="C"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="@android:color/holo_red_light"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_weight="1"
+            android:text="7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+        <Button
+            android:layout_weight="1"
+            android:text="8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+        <Button
+            android:layout_weight="1"
+            android:text="9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+        <Button
+            android:layout_weight="1"
+            android:text="C"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:background="@android:color/holo_purple"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_weight="1"
+            android:text="7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+        <Button
+            android:layout_weight="1"
+            android:text="8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+        <Button
+            android:layout_weight="1"
+            android:text="9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+        <Button
+            android:layout_weight="1"
+            android:text="C"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

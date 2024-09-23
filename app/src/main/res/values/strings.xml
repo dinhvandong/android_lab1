@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LoginApp</string>
+    <string name="label_login">Login</string>
+    <string name="label_register">Register</string>
+    <string name="edt_hint_enter_your_phone">Enter your phone</string>
+    <string name="edt_hint_enter_your_password">Enter your password</string>
+    <string name="grab_food_logo">Grab food logo</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="remember_me">Remember me</string>
+    <string name="label_add">+</string>
+    <string name="label_sub">-</string>
+    <string name="label_mul">x</string>
+    <string name="label_div">:</string>
+</resources>
